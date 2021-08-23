@@ -1,0 +1,49 @@
+body {
+  background: rgb(182, 107, 107);
+  /* height: 100%; */
+}
+.container {
+  background-color: #af0;
+  position: relative;
+  height: 600px;
+  border: 5px solid #a00;
+}
+#header {
+  background-color: #aca;
+}
+.div1,
+.div2,
+.div3 {
+  height: 200px;
+  width: 200px;
+  line-height: 200px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+/* relative property: */
+
+.div1 {
+  background-color: #aaa;
+  position: relative;
+  left: 50px;
+  top: 50px;
+}
+
+/* absolute we need to mention to parent tag "relative" */
+.div2 {
+  background-color: #a3a;
+  position: absolute;
+  bottom: 20%;
+  left: 40%;
+  /* display: none; */
+}
+
+/* fixed all area */
+.div3 {
+  background-color: #aa1;
+  position: fixed;
+  /* top: 0; */
+  bottom: 0;
+  right: 300px;
+}
